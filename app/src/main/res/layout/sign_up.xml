@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/SignUpText"
+        android:layout_width="247dp"
+        android:layout_height="29dp"
+        android:text="Please fill the form to sign up:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/NameText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
+
+    <EditText
+        android:id="@+id/NameText"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <EditText
+        android:id="@+id/EmailText"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/PasswordText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameText"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <EditText
+        android:id="@+id/PasswordText"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/SignUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/AgeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Age:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordText"
+        tools:text="Age:" />
+
+    <TextView
+        android:id="@+id/GenderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Gender:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/SignUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AgeText"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Gender:" />
+
+
+    <Spinner
+        android:id="@+id/AgeSpinner"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/AgeText"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordText" />
+
+    <Spinner
+        android:id="@+id/GenderSpinner"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toEndOf="@+id/GenderText"
+        app:layout_constraintTop_toBottomOf="@+id/AgeSpinner" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

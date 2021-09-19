@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Daleli Dwa’ai</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Daleli Dwa’ai</string>
+    <string name="menu_gallery">Daleli Dwa’ai</string>
+    <string name="menu_slideshow">Daleli Dwa’ai</string>
+    <string name="menu_tools">Daleli Dwa’ai</string>
+    <string name="menu_share">Daleli Dwa’ai</string>
+    <string name="menu_send">Daleli Dwa’ai</string>
+
+    <string name="API_KEY">trnsl.1.1.20170425T085917Z.580fec9ed721d387.9caf5bd2514ca1581b95de321974dce826ef5064</string>
+
+    <string name="Medicine_list">Medicine list</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="dosages">
+        <item>No Selection</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

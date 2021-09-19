@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+  <!--  tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"-->
+
+
+    <TextView
+        android:id="@+id/AboutUsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="156dp"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/AboutUsDescription"
+        android:layout_width="367dp"
+        android:layout_height="203dp"
+        android:layout_above="@+id/ContactUsDescription"
+        android:layout_below="@+id/AboutUsHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="51dp"
+        android:text="This application was developed by Ctrl U team for our graduation project, we came up with the idea because we ourselves sometimes can forget to take our medication whenever we get sick and we thought it will help people to remind them to schedule their medications as will as gain more knowledge about any medicine. "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AboutUsHeading"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <TextView
+        android:id="@+id/ContactUsDescription"
+        android:layout_width="361dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="271dp"
+        android:text="You can contact us whenever you face a problem and we'll gladly try to solve it in no time."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AboutUsDescription"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <TextView
+        android:id="@+id/ContactUsViaText"
+        android:layout_width="181dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="208dp"
+        android:text="Contact us via:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ContactUsDescription"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/EmailText"
+        android:layout_width="267dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="177dp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="15dp"
+        android:text="daleli_dwa'ai@gmail.com"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ContactUsViaText"
+        app:layout_constraintVertical_bias="0.089" />
+
+
+</RelativeLayout>
